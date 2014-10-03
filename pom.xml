@@ -7,7 +7,7 @@
     <artifactId>JavaMessaging</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-    <name>13 - JMS</name>
+    <name>JavaMessageDrivenBeansRoot</name>
 
 <!--    <parent>
         <groupId>de.followjack</groupId>

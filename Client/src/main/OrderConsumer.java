@@ -1,4 +1,6 @@
-package service.entities;
+package main;
+
+import entities.OrderDTO;
 
 import javax.jms.ConnectionFactory;
 import javax.jms.Destination;

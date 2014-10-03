@@ -1,4 +1,6 @@
-package service.entities;
+package main;
+
+import entities.OrderDTO;
 
 import javax.jms.ConnectionFactory;
 import javax.jms.Destination;
@@ -15,7 +17,7 @@ public class OrderProducer {
 
     public static void main(String[] args) throws NamingException{
         // Arrange - create an orderDTO with a total amount parameter
-        Float totalAmount = Float.valueOf(args[0]);
+        Float totalAmount = Float.valueOf("1700");
         OrderDTO order = new OrderDTO(1234l, new Date(),"Bla Bla", totalAmount);
 
         // Arrange - get the JNDI context

@@ -7,7 +7,7 @@
     <artifactId>Domain</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
-    <name>13 - JMS (MDB)</name>
+    <name>MessageDomain Java EE 7</name>
 
     <parent>
         <groupId>de.followjack</groupId>

@@ -1,6 +1,6 @@
 package service.messageBeans;
 
-import domain.entities.OrderDTO;
+import entities.OrderDTO;
 
 import javax.ejb.ActivationConfigProperty;
 import javax.ejb.MessageDriven;
